@@ -233,6 +233,26 @@ Secured by default, thankfully, but these 1,700+ machines still [have no busines
 
 ---
 
+## Common Exposures
+
+### Config Files [🔎 &#x2192;](https://www.shodan.io/search?query=%22Index+of+%2F%22+%22config%22)
+
+Search for exposed directory listings potentially revealing sensitive configuration files.
+
+```
+"Index of /" "config"
+```
+
+### DB Files [🔎 &#x2192;](https://www.shodan.io/search?query=%22Index+of+%2F%22+%22database%22)
+
+Search for exposed directory listings potentially revealing database files.
+
+```
+"Index of /" "database"
+```
+
+---
+
 
 ## Network Infrastructure
 
@@ -277,23 +297,6 @@ Misconfigured or exposed instances lacking proper authentication.
 "mysql" port:3306 -authentication
 ```
 
-## Directory Listings 
-
-### Config Files [🔎 &#x2192;](https://www.shodan.io/search?query=%22Index+of+%2F%22+%22config%22)
-
-Search for exposed directory listings potentially revealing sensitive configuration files.
-
-```
-"Index of /" "config"
-```
-
-### DB Files [🔎 &#x2192;](https://www.shodan.io/search?query=%22Index+of+%2F%22+%22database%22)
-
-Search for exposed directory listings potentially revealing database files.
-
-```
-"Index of /" "database"
-```
 
 ### Jenkins CI [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
 
