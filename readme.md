@@ -277,6 +277,14 @@ Misconfigured or exposed instances lacking proper authentication.
 "mysql" port:3306 -authentication
 ```
 
+### Directory Listings [🔎 &#x2192;](https://www.shodan.io/search?query=%22Index+of+%2F%22+%22config%22)
+
+Search for exposed directory listings potentially revealing sensitive configuration files.
+
+```
+"Index of /" "config"
+```
+
 ### Jenkins CI [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
 
 ```
