@@ -269,6 +269,13 @@ Like the [infamous phpMyAdmin](https://www.cvedetails.com/vulnerability-list/ven
 
 <div align="center"><img src="screenshots/mongo-express.png" alt="Example: Mongo Express GUI" width="700" /></div>
 
+### MySQL [🔎 &#x2192;](https://www.shodan.io/search?query=%22mysql%22+port%3A3306+-authentication)
+
+Misconfigured or exposed instances lacking proper authentication.
+
+```
+"mysql" port:3306 -authentication
+```
 
 ### Jenkins CI [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
 
