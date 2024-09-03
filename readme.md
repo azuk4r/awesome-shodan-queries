@@ -583,6 +583,13 @@ html:"DVR_H264 ActiveX"
 
 <div align="center"><img src="screenshots/hp.png" alt="Example: HP Printers" width="650" /></div>
 
+### Open HP Printer Web Interfaces [🔎 &#x2192;](https://www.shodan.io/search?query=%22Server%3A+HP+HTTP%22+%22200+OK%22+-authentication+port%3A80)
+
+```
+"Server: HP HTTP" "200 OK" -authentication port:80
+```
+
+<div align="center"><img src="screenshots/hp1.png" alt="Example: HP Printers" width="650" /></div>
 
 ### Xerox Copiers/Printers [🔎 &#x2192;](https://www.shodan.io/search?query=ssl%3A%22Xerox+Generic+Root%22)
 
