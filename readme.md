@@ -350,7 +350,12 @@ A tangential result of Google's sloppy fractured update approach. 🙄 [More inf
 Lantronix password port:30718 -secured
 ```
 
+### Boa Web Server Embedded Device Interfaces [🔎 &#x2192;](https://www.shodan.io/search?query=%22Server%3A+Boa%22+%22Content-Length%3A%22+-authentication+port%3A80)
 
+```
+"Server: Boa" "Content-Length:" -authentication port:80
+```
+                                                                    
 ### Citrix Virtual Apps [🔎 &#x2192;](https://www.shodan.io/search?query=%22Citrix+Applications%3A%22+port%3A1604)
 
 ```
