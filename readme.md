@@ -558,6 +558,11 @@ Example images not necessary. 🤦
 html:"DVR_H264 ActiveX"
 ```
 
+### GoAhead-Webs Cameras with Exposed Web Interfaces [🔎 &#x2192;](https://www.shodan.io/search?query=%22http.title%3Acamera%22+%22200+OK%22+%22Server%3A+GoAhead-Webs%22+-authentication+port%3A80)
+
+```
+"http.title:camera" "200 OK" "Server: GoAhead-Webs" -authentication port:80
+```
 
 ---
 
