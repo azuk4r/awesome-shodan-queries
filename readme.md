@@ -563,6 +563,12 @@ Example images not necessary. 🤦
 html:"DVR_H264 ActiveX"
 ```
 
+### Unsecured DVR Web Interfaces [🔎 &#x2192;](https://www.shodan.io/search?query=%22Server%3A+uc-httpd%22+%22200+OK%22+-authentication+port%3A80)
+
+```
+"Server: uc-httpd" "200 OK" -authentication port:80
+```
+
 ### GoAhead-Webs Cameras with Exposed Web Interfaces [🔎 &#x2192;](https://www.shodan.io/search?query=%22http.title%3Acamera%22+%22200+OK%22+%22Server%3A+GoAhead-Webs%22+-authentication+port%3A80)
 
 ```
