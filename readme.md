@@ -251,6 +251,12 @@ Search for exposed directory listings potentially revealing database files.
 "Index of /" "database"
 ```
 
+### Exposed `.bak` Backup Files [🔎 &#x2192;](https://www.shodan.io/search?query=%22index+of%22+%22.bak%22)
+
+```
+"index of" ".bak"
+```
+
 ---
 
 
