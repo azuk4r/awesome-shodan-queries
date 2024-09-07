@@ -257,11 +257,13 @@ Search for exposed directory listings potentially revealing database files.
 "index of" ".bak"
 ```
 
-### Exposed `.env` Files with DB Passwords [🔎 &#x2192;](https://www.shodan.io/search?query=http.html%3A%22.env%22+http.html%3A%22DB_PASSWORD%22)
+### Servers Exposing .env Files with DB Password References  [🔎 &#x2192;](https://www.shodan.io/search?query=http.html%3A%22.env%22+http.html%3A%22DB_PASSWORD%22)
 
 ```
 http.html:".env" http.html:"DB_PASSWORD"
 ```
+
+**You can use `filetype:env intext:DB_PASSWORD` in a Google search to display indexed passwords from some exposed servers. This method often reveals sensitive information in `.env` files that are publicly accessible.**
 
 ### Exposed PHP Session ID Cookies [🔎 &#x2192;](https://www.shodan.io/search?query=%22Set-Cookie%3A+PHPSESSID%22)
 
