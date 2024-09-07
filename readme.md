@@ -257,8 +257,13 @@ Search for exposed directory listings potentially revealing database files.
 "index of" ".bak"
 ```
 
----
+### Exposed `.env` Files with DB Passwords [🔎 &#x2192;](https://www.shodan.io/search?query=http.html%3A%22.env%22+http.html%3A%22DB_PASSWORD%22)
 
+```
+http.html:".env" http.html:"DB_PASSWORD"
+```
+
+---
 
 ## Network Infrastructure
 
