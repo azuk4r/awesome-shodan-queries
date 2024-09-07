@@ -263,6 +263,12 @@ Search for exposed directory listings potentially revealing database files.
 http.html:".env" http.html:"DB_PASSWORD"
 ```
 
+### Exposed PHP Session ID Cookies [🔎 &#x2192;](https://www.shodan.io/search?query=%22Set-Cookie%3A+PHPSESSID%22)
+
+```
+"Set-Cookie: PHPSESSID"
+```
+
 ---
 
 ## Network Infrastructure
