@@ -271,6 +271,12 @@ http.html:".env" http.html:"DB_PASSWORD"
 "Set-Cookie: PHPSESSID"
 ```
 
+
+### Exposed Directory Listings in India [🔎 →](https://www.shodan.io/search?query=http.title%3A%22index+of%22+port%3A80+country%3AIN)
+```
+http.title:"index of" port:80 country:"IN"
+```
+
 ---
 
 ## Network Infrastructure
