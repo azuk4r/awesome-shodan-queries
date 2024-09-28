@@ -322,6 +322,10 @@ Misconfigured or exposed instances lacking proper authentication.
 "mysql" port:3306 -authentication
 ```
 
+### Exposed PostgreSQL Databases [🔎 &#x2192;](https://www.shodan.io/search?query=product%3A%22PostgreSQL%22+%22authentication+failed%22+port%3A5432)
+```
+product:"PostgreSQL" "authentication failed" port:5432
+```
 
 ### Jenkins CI [🔎 &#x2192;](https://www.shodan.io/search?query=%22X-Jenkins%22+%22Set-Cookie%3A+JSESSIONID%22+http.title%3A%22Dashboard%22)
 
@@ -476,6 +480,25 @@ HP-ILO-4 !"HP-ILO-4/2.53" !"HP-ILO-4/2.54" !"HP-ILO-4/2.55" !"HP-ILO-4/2.60" !"H
 "X-MS-Server-Fqdn"
 ```
 
+
+---
+
+## OpenSSH
+
+### Servers Using Weak Diffie-Hellman Key Exchange [🔎 &#x2192;](https://www.shodan.io/search?query=product%3A%22OpenSSH%22+%22diffie-hellman-group1-sha1%22)
+```
+product:"OpenSSH" "diffie-hellman-group1-sha1"
+```
+
+### Servers Using Deprecated Triple DES (3DES) Encryption [🔎 &#x2192;](https://www.shodan.io/search?query=product%3A%22OpenSSH%22+%223des-cbc%22)
+```
+product:"OpenSSH" "3des-cbc"
+```
+
+### Servers Running Vulnerable OpenSSH Versions (5.9, 6.0, 6.2) [🔎 &#x2192;](https://www.shodan.io/search?query=product%3A%22OpenSSH%22+version%3A%225.9%2C6.0%2C6.2%22)
+```
+product:"OpenSSH" version:"5.9,6.0,6.2"
+```
 
 ---
 
